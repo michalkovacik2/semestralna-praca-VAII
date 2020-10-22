@@ -44,6 +44,10 @@ body {
     object-fit: cover;
 }
 
+#novinky {
+    margin-top: 1vw;
+}
+
 @media (min-width: 576px) {
     .card-columns {
         column-count: 2;

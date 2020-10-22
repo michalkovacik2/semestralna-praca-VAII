@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4644e364-3b33-4b1e-86be-a890922fe6bc" name="Default Changelist" comment="">
+    <list default="true" id="4644e364-3b33-4b1e-86be-a890922fe6bc" name="Default Changelist" comment="Opravene chyby vo validatore. time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main_page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -89,8 +90,16 @@
       <updated>1603268213792</updated>
       <workItem from="1603268214838" duration="34255000" />
       <workItem from="1603323283350" duration="546000" />
-      <workItem from="1603351893196" duration="35735000" />
+      <workItem from="1603351893196" duration="36549000" />
     </task>
+    <task id="LOCAL-00001" summary="Opravene chyby vo validatore. time">
+      <created>1603408938630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603408938630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Opravene chyby vo validatore. time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opravene chyby vo validatore. time" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1603407125999">
@@ -160,5 +173,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603397570487" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603408954999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603408954999" />
   </component>
 </project>
