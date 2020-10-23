@@ -25,6 +25,10 @@ body {
     color: #d65800;
 }
 
+.myNavbar .navbar-brand:hover {
+    color: #d65800;
+}
+
 .bannerText {
     color: whitesmoke;
     font-weight: bold;
