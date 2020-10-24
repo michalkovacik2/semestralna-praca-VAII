@@ -27,3 +27,52 @@
 .nedostupneIcon {
     color: darkred;
 }
+
+.categoryTitle {
+    background-color: #ff9007;
+    font-size: 20px;
+}
+
+.orangeBadge {
+    background-color: #fac583;
+}
+
+.orangeFont {
+    color: #ff9007;
+}
+
+.outlineButton {
+    border: 1px solid black;
+}
+
+.outlineButton:hover {
+    box-shadow: 0 0 5px orange;
+}
+
+.outlineButton:focus {
+    box-shadow: 0 0 5px orange;
+}
+
+.dropDownItem:hover {
+    background-color: #ff9007;
+}
+
+.buttonAvailable {
+    background-color: #00ff55;
+}
+
+.buttonAvailable:focus {
+    box-shadow:0 0 5px green;
+}
+
+.buttonUnavailable {
+    background-color: #b0b3b7;
+}
+
+/* Checked state */
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #ff9007;
+    background-color: #ff9007;
+    box-shadow: none;
+}
