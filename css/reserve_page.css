@@ -72,7 +72,7 @@
 /* Checked state */
 .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: #ff9007;
+    border-color: #ff9c07;
     background-color: #ff9007;
     box-shadow: none;
 }
