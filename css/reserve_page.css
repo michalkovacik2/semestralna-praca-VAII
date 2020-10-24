@@ -1,0 +1,29 @@
+.bookItem {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+.myCard {
+    padding: 5px;
+}
+
+.autor {
+    font-style: italic;
+}
+
+.shortInfo {
+    font-size: small;
+}
+
+.dostupneIcon {
+    color: darkgreen;
+}
+
+.nedostupneIcon {
+    color: darkred;
+}
