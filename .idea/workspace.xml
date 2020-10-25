@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4644e364-3b33-4b1e-86be-a890922fe6bc" name="Default Changelist" comment="Pridany link na rezervuj si knihu.">
-      <change afterPath="$PROJECT_DIR$/css/reserve_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reserve_page.html" afterDir="false" />
+    <list default="true" id="4644e364-3b33-4b1e-86be-a890922fe6bc" name="Default Changelist" comment="Pridany profil page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reserve_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reserve_page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +61,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.reserve_page.html">
+  <component name="RunManager" selected="JavaScript Debug.about_page.html">
+    <configuration name="about_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/about_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="login_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/login_page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/main_page.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="profil_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/profil_page.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="register_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/register_page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="reserve_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/semestralka/reserve_page.html" useBuiltInWebServerPort="true">
@@ -80,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.reserve_page.html" />
+        <item itemvalue="JavaScript Debug.about_page.html" />
         <item itemvalue="JavaScript Debug.profil_page.html" />
-        <item itemvalue="JavaScript Debug.main_page.html" />
+        <item itemvalue="JavaScript Debug.reserve_page.html" />
         <item itemvalue="JavaScript Debug.login_page.html" />
-        <item itemvalue="JavaScript Debug.register_page.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +98,10 @@
       <workItem from="1603268214838" duration="34255000" />
       <workItem from="1603323283350" duration="546000" />
       <workItem from="1603351893196" duration="39496000" />
-      <workItem from="1603438436624" duration="39194000" />
+      <workItem from="1603438436624" duration="39886000" />
+      <workItem from="1603532026919" duration="8384000" />
+      <workItem from="1603541783696" duration="12222000" />
+      <workItem from="1603620748293" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="Opravene chyby vo validatore. time">
       <created>1603408938630</created>
@@ -129,7 +131,49 @@
       <option name="project" value="LOCAL" />
       <updated>1603486292833</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pridanie stranky na rezervovanie knihy spolu s CSS.">
+      <created>1603497894351</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603497894351</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Zmena xs rozlisenia.">
+      <created>1603541178309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541178309</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Nahratie ikony pre rezervovanie">
+      <created>1603541201627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541201627</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Stylovanie rezervovania">
+      <created>1603541865907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603541865907</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Odstranene nadbytocne classy. Zmena farby border-color">
+      <created>1603548392421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603548392421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Pridany profil page">
+      <created>1603548447676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603548447676</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,68 +196,79 @@
     <MESSAGE value="Pridany nadpis novinky." />
     <MESSAGE value="Upravena farba pozadia" />
     <MESSAGE value="Pridany link na rezervuj si knihu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pridany link na rezervuj si knihu." />
+    <MESSAGE value="Pridanie stranky na rezervovanie knihy spolu s CSS." />
+    <MESSAGE value="Zmena xs rozlisenia." />
+    <MESSAGE value="Nahratie ikony pre rezervovanie" />
+    <MESSAGE value="Stylovanie stranky rezervacie" />
+    <MESSAGE value="Stylovanie rezervovania" />
+    <MESSAGE value="Odstranene nadbytocne classy. Zmena farby border-color" />
+    <MESSAGE value="Pridany profil page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pridany profil page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1603460050797">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1603548419085">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1603460050797" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1603548419085" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1603407125999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603407125999" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1603584640504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603584640504" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603584640506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603584640506" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1603584640505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1603462395375">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603584640505" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1603584640506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603462395375" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603584640506" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1603584640506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603584640506" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1603584640506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1603462395374">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603584640506" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1603584640506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603462395374" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603497492390">
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603584640506" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603548459867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603497492390" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603548459867" />
+    <state x="479" y="11" width="578" height="801" key="find.popup" timestamp="1603537640173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="11" width="578" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603537640173" />
   </component>
 </project>
