@@ -1,5 +1,5 @@
 .bookItem {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0;
     padding: 0;
 }
@@ -8,8 +8,19 @@
     padding: 0;
 }
 
+.itemIcon {
+    border: 1px solid black;
+    border-radius: 7px 0 0 7px;
+}
+
+.card {
+    border: 1px solid black;
+    border-left: 0;
+    border-radius: 0 7px 7px 0;
+}
+
 .myCard {
-    padding: 5px;
+    padding: 8px;
 }
 
 .autor {
@@ -31,6 +42,7 @@
 .categoryTitle {
     background-color: #ff9007;
     font-size: 20px;
+    border: 2px solid black
 }
 
 .orangeBadge {
@@ -76,4 +88,17 @@
     border-color: #ff9c07;
     background-color: #ff9007;
     box-shadow: none;
+}
+
+@media (max-width: 576px) {
+    .card {
+        border: 1px solid black;
+        border-top: 0;
+        border-radius: 0 0 7px 7px;
+    }
+
+    .itemIcon {
+        border: 1px solid black;
+        border-radius: 7px 7px 0 0;
+    }
 }
