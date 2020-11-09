@@ -54,3 +54,7 @@ body {
     color: black;
     font-weight: bold;
 }
+
+.backIcon:hover {
+    color: orange;
+}

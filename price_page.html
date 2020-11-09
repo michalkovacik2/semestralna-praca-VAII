@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knižnica</title>
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link href="fontawesome-free-5.15.1-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web/css/brands.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main_page.css">
+    <link rel="stylesheet" href="css/price_page.css">
+</head>
+<body>
+<div id="banner">
+    <div class="container">
+        <nav class="navbar navbar-expand-md myNavbar">
+            <a href="index.html" class="navbar-brand">
+                <i class="fas fa-book-open"></i>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="about_page.html" class="nav-item nav-link active">O knižnici</a>
+                    <a href="#" class="nav-item nav-link">Cenník</a>
+                    <a href="#" class="nav-item nav-link">Kontakt</a>
+                    <a href="reserve_page.html" class="nav-item nav-link">Rezervuj si knihu</a>
+                    <a href="profil_page.html" class="nav-item nav-link"> <i class="fas fa-user"></i> Profil </a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="login_page.html" class="nav-item nav-link">Prihlásenie / Registrácia</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid  bg-transparent">
+        <div class="container">
+            <h1 class="display-2 bannerText">Cenník</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5 mb-5">
+    <h1>Cenník platný do <time datetime="2021-12-31">31.12.2021</time></h1>
+
+    <div class="table-responsive mt-5">
+        <table class="table table-bordered">
+
+            <thead class="mainHeader">
+            <tr>
+                <th>Druh poplatku</th>
+                <th>Cena</th>
+            </tr>
+            </thead>
+
+            <tbody class="tabBody">
+            <tr>
+                <th colspan="2" class="categoryHeader">Výška ročného členského poplatku</th>
+            </tr>
+
+            <tr>
+                <td>Deti mladšie ako 6 rokov</td>
+                <td>Zadarmo</td>
+            </tr>
+            <tr>
+                <td>Deti a mládež mladšia ako 15 rokov</td>
+                <td>2 €</td>
+            </tr>
+            <tr>
+                <td>Študenti stredných a vysokých škôl</td>
+                <td>3 €</td>
+            </tr>
+            <tr>
+                <td>Dospelý mladší ako 65 rokov</td>
+                <td>7 €</td>
+            </tr>
+            <tr>
+                <td>ZŤP a darcovia krvi</td>
+                <td>Zadarmo</td>
+            </tr>
+
+            <tr>
+                <th colspan="2" class="categoryHeader">Sankčné poplatky</th>
+            </tr>
+            <tr>
+                <td>Oneskorenie vrátenia knihy o 1.týždeň</td>
+                <td>1 €</td>
+            </tr>
+            <tr>
+                <td>Oneskorenie vrátenia knihy o 2.týždne</td>
+                <td>3 €</td>
+            </tr>
+            <tr>
+                <td>Oneskorenie vrátenia knihy o 3.týždne</td>
+                <td>5 €</td>
+            </tr>
+            <tr>
+                <td>Poškodenie knihy</td>
+                <td>2 €</td>
+            </tr>
+            <tr>
+                <td>Poškodenie majetkového vybavenia knižnice</td>
+                <td>20 € + (náklady na opravu)</td>
+            </tr>
+
+            <tr>
+                <th colspan="2" class="categoryHeader">Ostatné služby</th>
+            </tr>
+            <tr>
+                <td>Kopírovanie 1 strana A4</td>
+                <td>0,15 €</td>
+            </tr>
+            <tr>
+                <td>Kopírovanie 1 strana A4 obojstranne</td>
+                <td>0,20 €</td>
+            </tr>
+            <tr>
+                <td>Kopírovanie 1 strana s obrázkom</td>
+                <td>0,30 €</td>
+            </tr>
+            <tr>
+                <td>Použitie počítača 30 minút denne</td>
+                <td>Zadarmo</td>
+            </tr>
+            <tr>
+                <td>Použitie počítača každých dalších začatých 30 minút</td>
+                <td>0,50 €</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="jquery/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
