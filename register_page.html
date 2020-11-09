@@ -6,6 +6,9 @@
     <title>Registrácia</title>
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <!--    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+    <link href="fontawesome-free-5.15.1-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web/css/brands.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/login_page.css">
     <link rel="stylesheet" href="css/register_page.css">
 </head>
@@ -20,8 +23,12 @@
                 </div>
                 <!-- Formular -->
                 <div class="container bgColor" id="windowRegister">
+                    <a href="login_page.html" class="backIcon">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+
                     <h2 class="text-center" id="loginLabel">Registrácia</h2>
-                    <form action="#">
+                    <form action="#" class="mt-0 ml-5 mr-5 mb-2">
                         <div class="form-group">
                             <label for="idMeno" class="font-weight-bold">Meno</label>
                             <input type="text" class="form-control" id="idMeno" placeholder="Meno" name="name">
@@ -62,6 +69,7 @@
     </div>
 
     <script src="jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
